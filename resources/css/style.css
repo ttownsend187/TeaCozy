@@ -72,10 +72,10 @@ header nav{
   height: 700px;
   width: 1000px;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 .pictures{
   display: flex;
-  flex-direction: row;
   width: 100%;
   justify-content: center;
   margin: 0 auto;
@@ -85,7 +85,44 @@ header nav{
   height: 200px;
   width: 300px;
   padding: 10px;
+}
 
-.pic h4{
+.bottom{
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  flex-wrap: flex;
+}
+.location{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.location h1{
 
+}
+.address{
+  height: 220px;
+  width: 300px;
+  opacity: 1;
+  margin: 15px 20px;
+  padding: 20px;
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  justify-content: space-between;
+}
+footer{
+  text-align: center;
+  line-height: 20px;
+}
+footer .copyright{
+  text-align: left;
+  padding-left: 20px;
 }
